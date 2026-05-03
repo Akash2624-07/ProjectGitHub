@@ -39,12 +39,12 @@ A modern React-based web app that allows users to explore GitHub profiles, searc
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone git@github.com:Akash2624-07/ProjectGitHub.git
 ```
 
 2. Navigate to project folder:
 ```bash
-cd <repo-name>
+cd ProjectGitHub
 ```
 
 3. Install dependencies:
@@ -54,20 +54,20 @@ npm install
 
 4. Start the development server:
 ```bash
-npm start
+npx parcel index.html
 ```
 
 ---
 
 ## 🔐 Environment Variables (Optional)
 
+Generate a fine-grained personal access token.
+
 Create a `.env` file in root:
 
 ```
 GITHUB_TOKEN=your_github_token_here
 ```
-
-⚠️ Do not expose tokens in frontend for production.
 
 ---
 
