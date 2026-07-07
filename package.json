@@ -1,8 +1,16 @@
 {
+  "name": "github-profile-explorer",
+  "version": "1.0.0",
+  "description": "A React app to explore GitHub profiles, search users, browse their repositories with infinite scroll, save favorites, and compare profiles side by side.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
   "dependencies": {
-    "parcel": "^2.16.4",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-infinite-scroll-component": "^6.1.1"
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
   }
 }
